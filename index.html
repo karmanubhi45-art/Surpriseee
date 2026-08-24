@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For My Cute Yogeeta Didi 💗</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+font-family:Arial,sans-serif;text-align:center;background:linear-gradient(135deg,#ffd6e7,#ddd7ff,#d5f7ff);overflow:hidden}
+.card{width:90%;max-width:430px;padding:28px 20px;border-radius:30px;background:#ffffffdd;
+box-shadow:0 20px 60px #0002}
+h1{color:#ff4f87;font-size:30px;margin:0 0 10px}
+p{color:#555;line-height:1.5}
+#open{display:none}
+.box{display:block;font-size:105px;line-height:1;margin:22px auto 10px;cursor:pointer;
+-webkit-tap-highlight-color:transparent;transition:.2s}
+.box:active{transform:scale(.9)}
+.hint{font-weight:bold;color:#805ad5;font-size:17px}
+.surprise{display:none}
+#open:checked~.surprise{display:block;animation:pop .65s ease}
+#open:checked~.start{display:none}
+.monkey{font-size:120px;animation:bounce .5s infinite alternate}
+.bandri{font-size:32px;font-weight:1000;color:#ff3d7f}
+.love{font-size:18px}
+.hearts{font-size:27px;animation:float 1.4s infinite alternate}
+@keyframes pop{from{transform:scale(.1) rotate(-8deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}}
+@keyframes bounce{to{transform:translateY(-16px) rotate(5deg)}}
+@keyframes float{to{transform:translateY(-10px)}}
+</style>
+</head>
+<body>
+<div class="card">
+<input id="open" type="checkbox">
+
+<div class="start">
+<h1>For My Cute Yogeeta Didi 💗</h1>
+<p>I know you're feeling a little sad... 🥺</p>
+<p>So your little brother made a tiny surprise just for you! 🫶😂</p>
+<label class="box" for="open">🎁</label>
+<div class="hint">OPEN THIS, YOGEETA DIDI 👀🎁</div>
+</div>
+
+<div class="surprise">
+<div class="hearts">❤️ 💗 ✨ 💖 ✨ 💗 ❤️</div>
+<div class="monkey">🐒</div>
+<div class="bandri">BANDRIIIIII 🤣🤣🤣</div>
+<p class="love">HAHAHAHA 😭😂<br>
+You thought it was going to be emotional, didn't you? 💀</p>
+<p><b>Okay okay Didi 😭❤️</b><br>
+Don't stay sad! Your smile is way too precious. 🫂<br>
+Love youuu, Yogeeta Didi! 💗</p>
+<label class="box" for="open" style="font-size:42px">🎁</label>
+</div>
+</div>
+</body>
+</html>
